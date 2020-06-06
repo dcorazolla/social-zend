@@ -1,0 +1,15 @@
+
+body {
+	background-image: url(/images/site/bg2.jpg); background-color:#c1b8a6;
+	line-height: 18px;
+	font-family: Arial, Verdana, sans-serif; font-size: 12px; color: #779fa0;	
+	width:100%; height:100%;
+	margin: 0; padding: 0; border: 0; outline: 0;
+}
+
+.logo {
+	background-image: url(/images/site/logo2.png);
+	_background:none!important;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='imagens/logo2.png',sizingMethod='scale');
+}
+

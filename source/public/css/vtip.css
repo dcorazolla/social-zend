@@ -1,0 +1,42 @@
+p#vtip { 
+
+	display: none; 
+
+	position: absolute; 
+
+	padding-left: 10px; padding-right:10px; padding-bottom:5px; padding-top:5px;
+
+	left: 5px;
+
+	font-size: 14px; color:#1c3542;
+
+	background-color: white; 
+
+	border: 1px solid #a6c9e2; 
+
+	-moz-border-radius: 5px; 
+
+	border-radius: 5px;
+
+	-webkit-border-radius: 5px;
+
+	
+
+	-moz-box-shadow:2px 3px 5px #6c6c6c; -webkit-box-shadow:2px 3px 5px #6c6c6c; box-shadow:2px 3px 5px #6c6c6c;
+
+	
+
+	z-index: 9999;
+
+}
+
+
+
+p#vtip #vtipArrow { 
+
+	position: absolute; 
+
+	top: -10px; left: 5px 
+
+}/* CSS Document */
+

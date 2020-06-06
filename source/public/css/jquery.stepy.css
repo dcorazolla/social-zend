@@ -1,0 +1,96 @@
+@CHARSET "UTF-8";
+
+a.button-back, a.button-next, input.finish {
+	background-color: #AAA;
+	color: #FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding: 5px 10px;
+}
+
+a.button-back, a.button-next, input.finish, fieldset.step {
+	border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-opera-border-radius: 4px;
+	-webkit-border-radius: 4px;	
+}
+
+a.button-back:hover, a.button-next:hover, input.finish:hover {
+	background-color: #6699CC;
+}
+
+a.button-back {
+	float: left;
+	text-decoration: none;
+}
+
+a.button-next {
+	float: right;
+	text-decoration: none;
+}
+
+fieldset.step {
+	border: 1px solid #DDD;
+	clear: left;
+	padding:20px;
+}
+
+
+fieldset.step legend {
+	color: #4080BF;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding: 0 2px 3px 2px;
+}
+
+fieldset.step label {
+	display: block;
+	font-weight:bold;
+	margin-top: 10px;
+	margin: 10px 0 3px 7px;
+}
+
+li.error-image {
+	background: url('/html/imagens/site/error.gif') no-repeat right top;
+}
+
+ul.stepy-titles {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.stepy-titles li {
+	color: #DDD;
+	cursor: pointer;
+	font-size:18px;
+	font-weight:bold;
+	float: left;
+	padding: 10px;
+}
+
+ul.stepy-titles li.current-step {
+	color: #369;
+	cursor: auto;
+}
+
+ul.stepy-titles li span {
+	font-size:12px;
+	display: block;
+}
+
+
+/*** Optionaly (jQuery Validate) ***/
+
+label.error {
+	background: url('/html/imagens/site/alert.gif') no-repeat;
+	color: #DE5130;
+	display: block;
+	float: left;
+	font-size: 10px;
+	height: 16px;
+	margin: 5px 3px 0 10px;
+	padding-left: 21px;
+	padding-top: 2px;
+}

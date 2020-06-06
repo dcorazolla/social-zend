@@ -1,0 +1,1264 @@
+/**
+	* @name stylesite.css
+	* @desc CSS StyleSheet
+	* @version v1.0 - Brasília, 26 de Fevereiro de 2010
+	* @author Thiago Borges
+	* @category CSS
+	* @package Logic BSB
+*/
+
+/* ============================================================= */
+/* ========================== Body ============================= */
+/* ============================================================= */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend { margin: 0; padding: 0; border: 0; vertical-align: baseline; background: transparent; }
+
+
+html{
+	height:100%; width:100%;
+}
+
+form{
+	margin:0; padding:0;
+}
+	
+A {
+	font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #5e94a8; text-decoration: none;
+}
+
+A:hover {
+	font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #1b4344;	text-decoration: none;
+}
+
+img {
+	border:0; padding:0; margin:0;
+}
+
+p {
+	padding-bottom:10px; margin:0;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: collapse; border-spacing: 0; }
+.clear { clear: both; }
+br.clear { margin: 0px; padding: 0px; }
+
+
+
+
+/* ========================================================= */
+/* ===================== Barra Topo ======================== */
+/* ========================================================= */
+
+.bgBarra {
+	background-image: url(/images/site/bg_barra.png);
+	padding-top:5px; padding-bottom:5px; width:100%;
+}
+
+
+
+
+
+/* ==================================================== */
+/* ===================== Temas ======================== */
+/* ==================================================== */
+
+#menu {
+	margin:0; padding:0; display:table; width:100%; z-index:33;
+}
+
+#menu ul {
+	list-style:none; margin:0; padding:0; display:table; z-index:33;
+}
+#menu ul li {
+	position:relative; float:left; margin-left:5px; margin-right:5px; z-index:33;
+}
+
+
+
+
+/* ==================================================== */
+/* ===================== Busca ======================== */
+/* ==================================================== */
+
+/* Campo Formuláro Input busca */
+
+.inputBusca {
+	background-image: url(/images/site/busca.png);
+	_background-image: url(/images/site/busca.gif);
+	*background-image: url(/images/site/busca.gif);
+	background-repeat: no-repeat; background-position:top left; width:259px;
+	border:0px; background-color: transparent;
+	padding-left:35px; padding-right:10px; padding-top:7px; padding-bottom:7px;
+	font-family: Arial, sans-serif; font-size: 16px; color: #8b9aa0; text-decoration: none;
+}
+
+/* Botão Busca */
+
+.botaoBusca {
+	background-image: url(/images/site/botao_busca.png);
+	_background-image: url(/images/site/botao_busca.gif);
+	*background-image: url(/images/site/botao_busca.gif);
+	background-repeat: no-repeat; background-position:top left;
+}
+
+
+.botaoLogin {	
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 	
+	border-radius: 5px;
+	
+	border:0;
+	
+	background-color: #4f89b5;
+	padding-left:25px; padding-right:25px; padding-top:5px; padding-bottom:5px;
+
+	font-family: Arial,Sans-Serif; font-size: 12px; color: #ffffff; font-weight:bold;
+	text-shadow:1px 1px #4a0808;
+}
+
+
+
+/* =================================================== */
+/* ===================== Site ======================== */
+/* =================================================== */
+
+.topo {
+	background-image: url(/images/site/bg_topo1.png);
+	_background-image: url(/images/site/bg_topo1.gif);
+	*background-image: url(/images/site/bg_topo1.gif); 
+	background-repeat:no-repeat; background-position: top center;
+}
+
+.bgSite {
+	background-image: url(/images/site/bg_cont.png);
+	_background-image: url(/images/site/bg_cont.gif);
+	*background-image: url(/images/site/bg_cont.gif); 
+	background-repeat: repeat-y; background-position: top center;
+}
+
+.bgSiteTop {
+	background-image: url(/images/site/bg_topo.gif); 
+	background-repeat: no-repeat; background-position: top center;
+}
+
+
+
+
+/* ===================================================== */
+/* ===================== Perfil ======================== */
+/* ===================================================== */
+
+.aba {
+	background-image: url(/images/site/aba.png);
+	_background-image: url(/images/site/.gif);
+	*background-image: url(/images/site/.gif); 
+	background-repeat:no-repeat; background-position: top right;
+}
+
+.bgTitAzul {
+	background-image: url(/images/site/bg_tit_azul.gif);
+	background-repeat: repeat-y; background-position: top left; background-color:#8cbbba;
+	padding-top:10px; padding-bottom:10px;
+	padding-left:14px; padding-right:5px;
+	color:#FFFFFF; font-weight:bold;
+}
+
+.sombraTitAzul {
+	background-image: url(/images/site/sombra_tit_azul.gif);
+	background-repeat: no-repeat; background-position: bottom left;
+	padding-bottom:9px;
+}
+
+
+
+
+
+/* ============================================================== */
+/* ===================== Menu do Usuário ======================== */
+/* ============================================================== */
+
+.linkBottom a {
+	background-image: url(/images/site/link_bottom.gif); display:block;
+	background-repeat:no-repeat; background-position: bottom right;
+	padding-bottom:10px; padding-left:10px;
+	font-weight:bold;
+}
+
+
+
+
+/* ===================================================== */
+/* ===================== Amigos ======================== */
+/* ===================================================== */
+
+.bgTitVermelho {
+	background-image: url(/images/site/bg_tit_vermelho.gif);
+	background-repeat: repeat-y; background-position: top left; background-color:#bc3e52;
+	padding-top:10px; padding-bottom:10px;
+	padding-left:14px; padding-right:5px;
+	color:#FFFFFF; font-weight:bold;
+}
+
+.sombraTitVermelho {
+	background-image: url(/images/site/sombra_tit_vermelho.gif);
+	background-repeat: no-repeat; background-position: bottom left;
+	padding-bottom:9px;
+}
+
+
+
+
+
+/* ============================================================ */
+/* ===================== Menu Vertical ======================== */
+/* ============================================================ */
+
+/* === Background do Menu Horizontal === */
+
+.bgMv {
+	background-image: url(/images/site/mv_bg_right.gif); background-repeat: repeat-y; background-position: right;
+}
+
+.bgMvTop {
+	background-image: url(/images/site/mv_bg_top.gif); background-repeat: no-repeat; background-position: top right;
+}
+
+.bgMvBottom {
+	background-image: url(/images/site/mv_bg_bottom.gif); background-repeat: no-repeat; background-position: bottom right;
+	padding-top:20px; padding-bottom:30px;
+}
+
+.linkMV {
+	padding-right:10px;
+	border-bottom:1px #dbdbdc dotted;
+	padding-bottom:5px; padding-top:5px;
+	position:relative;
+}
+
+.linkMV a {	
+	font-family: Arial, Helvetica, sans-serif; font-size:14px; color:#568da5;
+	text-shadow:1px 1px #ffffff;
+}
+
+.linkMV a:hover {	
+	font-family: Arial, Helvetica, sans-serif; font-size:14px; color:#000000;
+	text-shadow:1px 1px #ffffff;
+}
+
+.linkMvInt {
+	padding-bottom:2px; padding-top:2px;
+}
+
+.linkMvInt a {	
+	font-family: Arial, Helvetica, sans-serif; font-size:12px; color:#568da5;
+}
+
+.linkMvInt a:hover {	
+	font-family: Arial, Helvetica, sans-serif; font-size:12px; color:#000000;
+}
+
+
+
+
+
+/* ========================================================= */
+
+/* ===================== Formulário ======================== */
+/* ========================================================= */
+
+.input {
+	border:1px #b9cbdb solid;
+	
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 	
+	border-radius: 3px; 
+	
+	background-color: #ffffff;
+	padding:4px;
+
+	font-family: Arial,Sans-Serif; font-size: 16px; color: #64798b;	text-decoration: none;
+	-moz-box-shadow:inset 0px 3px 5px #d9f2fd; -webkit-box-shadow:inset 0px 3px 5px #d9f2fd; box-shadow:inset 0px 3px 5px #d9f2fd;
+}
+
+.input:hover {
+	border:1px #b9cbdb solid;
+	
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 	
+	border-radius: 3px; 
+	
+	background-color: #e9f2f5;
+	padding:4px;
+
+	font-family: Arial,Sans-Serif; font-size: 16px; color: #64798b;	text-decoration: none;
+	-moz-box-shadow:inset 0px 3px 5px #c7dfea; -webkit-box-shadow:inset 0px 3px 5px #c7dfea; box-shadow:inset 0px 3px 5px #c7dfea;
+}
+
+.input:focus {
+	border:1px #b9cbdb solid;
+	
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 	
+	border-radius: 3px; 
+	
+	background-color: #e9f2f5;
+	padding:4px;
+
+	font-family: Arial,Sans-Serif; font-size: 16px; color: #64798b;	text-decoration: none;
+	-moz-box-shadow:inset 0px 3px 5px #c7dfea; -webkit-box-shadow:inset 0px 3px 5px #c7dfea; box-shadow:inset 0px 3px 5px #c7dfea;
+}
+
+
+
+
+/* ======================================================= */
+/* ===================== Conteúdo ======================== */
+/* ======================================================= */
+
+.msg{
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.msg h3{
+	font-family: Times New Roman, Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold;
+}
+
+.pagincacao a{
+	background-image: url(/images/site/bg_botao.gif); background-repeat: repeat-x; background-position: center;
+	font-family: Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold;
+	padding-left:10px; padding-right:10px; padding-bottom:5px; padding-top:5px;
+	margin-left:3px; margin-right:3px;
+	border-right: 1px #71a1a7 solid; border-bottom:1px #71a1a7 solid;
+}
+
+
+
+
+/* =================================================================================== */
+/* ===================== Chamadas Destaques da página inicial ======================== */
+/* =================================================================================== */
+
+#cdInicial{
+	width:100%; 	/* Para customizar o tamanho da barra altere esse valor e o valor de .bsCentro */
+	display:table;
+	margin:auto;
+}
+
+#cdInicial .cdEsquerda{
+	float:left;
+	width:50%;
+}
+
+#cdInicial .cdDireita{
+	float:left;
+	width:49%;
+}
+
+#cdInicial h3{
+	color:#44819b; text-shadow:1px 1px #fbfbfb; font-size:18px;
+}
+
+#cdInicial p{
+	font-size:12px;
+	color:#84929c;
+	font-weight:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0; padding-top:0px; padding-bottom:10px; padding-left:0px; padding-right:0px;
+}
+
+.sombraDestaqueFoto{
+	background-image: url(/images/site/sombrafoto.png); background-repeat: no-repeat; background-position:bottom center;
+	padding-bottom:10px; margin-bottom:15px;
+}
+
+.bordaDestaqueFoto{
+	border:4px #e5e5e5 solid;
+	-moz-box-shadow: inset 5px 5px 10px #000000; -webkit-box-shadow: inset 5px 5px 10px #000000; box-shadow: inset 5px 5px 10px #000000;
+}
+
+
+/* ===================== Formatação de links Informes Página Inicial ======================== */
+
+.LinkDestaque {
+	background-image:url(/images/site/icone_informe.gif); background-repeat: no-repeat; background-position: 0px 7px; 
+	
+	padding-left:34px; padding-bottom:5px; padding-top:5px;
+}
+
+/* ===================== Formatação de links com bullets ======================== */
+
+.LinkBullet {	
+	padding-bottom:5px; padding-top:5px;
+}
+
+.LinkAtividades {
+	background-image:url(/images/site/bullet-link.gif); background-repeat: no-repeat; background-position: 0px 3px;
+	padding-left:24px; 
+}
+
+
+
+
+
+/* ============================================================== */
+/* ===================== Lateral Direita ======================== */
+/* ============================================================== */
+
+/* === Título da Lateral Direita do site Azul Adicionar amigos === */
+
+.bgTitDireitaAzul {
+	background-image: url(/images/site/bg_tit_azul_direita.gif);
+	background-repeat: repeat-y; background-position: top right; background-color:#96c9c6;
+	padding-top:10px; padding-bottom:10px;
+	padding-left:25px; padding-right:15px;
+	color:#FFFFFF; font-weight:bold;
+}
+
+.SombraTitDireitaAzul {
+	background-image: url(/images/site/sombra_tit_azul_direita.gif);
+	background-repeat: no-repeat; background-position: bottom right;
+	padding-bottom:9px;
+}
+
+
+
+
+
+/* ============================================================== */
+/* ===================== Banners Sliders ======================== */
+/* ============================================================== */
+
+#container2{
+	margin:0 auto;
+	position:relative;
+	text-align:left;
+	width:250px;
+	height:250px;
+	border:5px #dcdedf solid;			
+}			
+
+/* Easy Slider */
+
+#slider{
+	margin:0 auto;
+	position:relative;
+	text-align:left;
+	width:250px;
+	height:auto;
+	overflow:hidden;		
+}	
+
+#slider ul, #slider li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#slider li{ 
+	position:relative; float:left;
+	width:250px;
+	height:250px;
+	overflow:hidden;
+}
+
+p#controls, p#controls2{
+	margin:0;
+	position:relative;
+	margin-left:-20px;
+} 	
+
+#prevBtn, #nextBtn, #prevBtn2, #nextBtn2{ 
+	display:block;
+	margin:0;
+	overflow:hidden;
+	text-indent:-8000px;	
+	width:21px;
+	height:21px;
+	position:absolute;
+	left:0px;
+	top:-220px;
+}	
+
+#nextBtn, #nextBtn2{
+	width:21px;
+	height:21px;
+	left:250px;
+}														
+
+#prevBtn a, #nextBtn a{ 
+	margin-left:0px;
+	display:block;
+	width:21px;
+	height:21px;
+	top:-20px;
+	background:url(/html/imagens/site/bleft.gif) no-repeat 0 0;	
+}	
+
+#nextBtn a{ 
+	background:url(/html/imagens/site/bright.gif) no-repeat 0 0;	
+}		
+/* // Easy Slider */
+
+
+
+/* =============================================================== */
+/* ===================== Páginas Internas ======================== */
+/* =============================================================== */
+
+.bgTituloInterno {
+	background-image: url(/images/site/listra.png);
+	_background-image: url(/images/site/listra.jpg);
+	*background-image: url(/images/site/listra.jpg);
+	background-repeat: no-repeat; background-position: top center;
+	padding-top:30px; padding-bottom:20px;
+}
+
+.tituloPaginaInterno {	
+	font-family: Times New Roman, Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold;
+	color:#3f88a0;
+	text-shadow:-1px -1px #ffffff;
+}
+
+.tituloDestaqueInterno a {	
+	font-family: Times New Roman, Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold;
+	color:#3f88a0;
+	text-shadow:-1px -1px #ffffff;
+}
+
+.tituloDestaqueInterno a:hover {	
+	font-family: Times New Roman, Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold;
+	color:#3f88a0;
+	text-shadow:-1px -1px #ffffff;
+}
+
+
+
+
+/* ================================================================ */
+/* ========================== Caminho ============================= */
+/* ================================================================ */
+
+
+.caminho {
+	border-width: 1px; border-color: #cbcbcb; border-style: solid; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+	background-image: url(/images/site/bg_caminho.gif); background-repeat:repeat-x; background-position: top; background-color:#edecec;	
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:5px;		
+	color:#909090; font-family: Arial, Helvetica, sans-serif; font-size: 12px;
+	margin-bottom:5px;
+}
+
+.caminho a {	
+	font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#3e5f7f; display:block;
+	text-shadow: 1px 1px #ffffff;
+}
+
+.caminho a:hover {
+	font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#000000; display:block;
+	text-shadow: 1px 1px #ffffff;
+}
+
+
+.sepCaminho {
+	background-image: url(/images/site/sep_caminho.gif); background-repeat:no-repeat; background-position: right; 
+	
+	padding-left:10px; padding-right:25px; padding-top:6px; padding-bottom:6px;
+}
+		
+			
+			
+/* =============================================================== */
+/* ========================== Rodapé ============================= */
+/* =============================================================== */
+
+.rodape {
+	background-image: url(/images/site/bg_bottom.png);
+	_background-image: url(/images/site/bg_bottom.gif);
+	*background-image: url(/images/site/bg_bottom.gif);
+	background-repeat:no-repeat; background-position:top center;
+}
+
+.bgRodape {
+	background-image: url(/images/site/bg_bottom_center.png);
+	_background-image: url(/images/site/bg_bottom_center.gif);
+	*background-image: url(/images/site/bg_bottom_center.gif);
+	background-repeat:repeat-y; background-position:top;
+}
+
+.bgRodapeSombra {
+	background-image: url(/images/site/bg_rodape.gif);
+	background-repeat: no-repeat; background-position:top center;
+}
+
+/* === Separação do rodapé === */
+
+.bgSombraRodape {
+	background-image: url(/images/site/sep_rodape.gif);
+	background-repeat: no-repeat; background-position: top left;
+}
+
+/* === Título do Rodapé seta Vermelha === */
+
+.bgTitRodapeVermelho {
+	background-image: url(/images/site/r_seta_vermelha.gif);
+	background-repeat: no-repeat; background-position: top left;
+	padding-top:19px; padding-bottom:30px;
+	padding-left:40px; padding-right:30px;
+	color:#FFFFFF; font-size:20px;
+}
+
+/* === Título do Rodapé seta Azul === */
+
+.bgTitRodapeAzil {
+	background-image: url(/images/site/r_seta_azul.gif);
+	background-repeat: no-repeat; background-position: top left;
+	padding-top:19px; padding-bottom:30px;
+	padding-left:40px; padding-right:30px;
+	color:#FFFFFF; font-size:20px;
+}
+
+/* === Título do Rodapé seta Laranja === */
+
+.bgTitRodapeLaranja {
+	background-image: url(/images/site/r_seta_laranja.gif);
+	background-repeat: no-repeat; background-position: top left;
+	padding-top:19px; padding-bottom:30px;
+	padding-left:40px; padding-right:30px;
+	color:#FFFFFF; font-size:20px;
+}
+
+.linkr {
+	padding-bottom:10px;
+}
+
+.linkr a {
+	color:#1e3e3e;
+}
+
+.linkr a:hover {
+	color:#000000;
+}
+
+
+
+
+/* ============================================================== */
+/* ======================== Paddings ============================ */
+/* ============================================================== */
+
+/* ================== Paddings  de 3 px =================== */
+
+/* Padding Left de 3px */
+
+.paddingLeft3 {
+	padding-left: 3px;
+}
+
+/* Padding Right de 3px */
+
+.paddingRight3 {
+	padding-right: 3px;
+}
+
+/* Padding Bottom de 3px */
+
+.paddingBottom3 {
+	padding-bottom: 3px;
+}
+
+/* Padding Top de 3px */
+
+.paddingTop3 {
+	padding-Top: 3px;
+}
+
+
+/* ================== Paddings  de 5 px =================== */
+
+/* Padding Left de 5px */
+
+.paddingLeft {
+	padding-left: 5px;
+}
+
+/* Padding Right de 5px */
+
+.paddingRight {
+	padding-right: 5px;
+}
+
+/* Padding Bottom de 5px */
+
+.paddingBottom {
+	padding-bottom: 5px;
+}
+
+/* Padding Top de 5px */
+
+.paddingTop {
+	padding-Top: 5px;
+}
+
+/* ================== Paddings  de 10 px =================== */
+
+/* Padding Left de 10px */
+
+.paddingLeft10 {
+	padding-left: 10px;
+}
+
+/* Padding Right de 10px */
+
+.paddingRight10 {
+	padding-right: 10px;
+}
+
+/* Padding Bottom de 10px */
+
+.paddingBottom10 {
+	padding-bottom: 10px;
+}
+
+/* Padding Top de 10px */
+
+.paddingTop10 {
+	padding-Top: 10px;
+}
+
+/* ================== Paddings  de 15 px =================== */
+
+/* Padding Left de 15px */
+
+.paddingLeft15 {
+	padding-left: 15px;
+}
+
+/* Padding Right de 15px */
+
+.paddingRight15 {
+	padding-right: 15px;
+}
+
+/* Padding Bottom de 15px */
+
+.paddingBottom15 {
+	padding-bottom: 15px;
+}
+
+/* Padding Top de 15px */
+
+.paddingTop15 {
+	padding-Top: 15px;
+}
+
+/* ================== Paddings  de 20 px =================== */
+
+/* Padding Left de 20px */
+
+.paddingLeft20 {
+	padding-left: 20px;
+}
+
+/* Padding Right de 20px */
+
+.paddingRight20 {
+	padding-right: 20px;
+}
+
+/* Padding Bottom de 20px */
+
+.paddingBottom20 {
+	padding-bottom: 20px;
+}
+
+/* Padding Top de 20px */
+
+.paddingTop20 {
+	padding-Top: 20px;
+}
+
+/* ================== Paddings  de 25 px =================== */
+
+/* Padding Left de 25px */
+
+.paddingLeft25 {
+	padding-left: 25px;
+}
+
+/* Padding Right de 25px */
+
+.paddingRight25 {
+	padding-right: 25px;
+}
+
+/* Padding Bottom de 25px */
+
+.paddingBottom25 {
+	padding-bottom: 25px;
+}
+
+/* Padding Top de 25px */
+
+.paddingTop25 {
+	padding-Top: 25px;
+}
+
+/* ================== Paddings em todos os lados de 10px, 5px e 2px =================== */
+
+/* Padding Total de 10px */
+
+.paddingTotal10 {
+	padding: 10px;
+}
+
+/* Padding Total de 5px */
+
+.paddingTotal5 {
+	padding: 5px;
+}
+
+/* Padding Total de 3px */
+
+.paddingTotal3 {
+	padding: 3px;
+}
+
+/* Padding Total de 2px */
+
+.paddingTotal2 {
+	padding: 2px;
+}
+
+
+
+
+/* =====================================================================================*/
+/* =============================== Tamanhos de Fonts ===================================*/
+/* =====================================================================================*/
+
+/* ============= Italic ( italico ) ============= */
+
+.italic {
+	font-style:italic;
+}
+
+.italic a {
+	font-style:italic;
+}
+
+.italic a:hover {
+	font-style:italic;
+}
+
+
+/* ============= Bold ( negrito ) ============= */
+
+.bold {
+	font-weight: bold;
+}
+
+.bold a {
+	font-weight: bold;
+}
+
+.bold a:hover {
+	font-weight: bold;
+}
+
+/* ============= Tamanho da Fonte de 10 px ============= */
+
+.brod {
+	font-size: 10px; 
+}
+
+.brod a {
+	font-size: 10px; 
+}
+
+.brod a:hover {
+	font-size: 10px; 
+}
+
+/* ============= Tamanho da Fonte de 12 px ============= */
+
+.alpha {
+	font-size: 12px; 
+}
+
+.alpha a {
+	font-size: 12px; 
+}
+
+.alpha a:hover {
+	font-size: 12px; 
+}
+
+/* ============= Tamanho da Fonte de 13 px ============= */
+
+.beta {
+	font-size: 12px; 
+}
+
+.beta a {
+	font-size: 12px; 
+}
+
+.beta a:hover {
+	font-size: 12px; 
+}
+
+/* ============= Tamanho da Fonte de 14 px ============= */
+
+.gama {
+	font-size: 16px; 
+}
+
+.gama a {
+	font-size: 16px; 
+}
+
+.gama a:hover {
+	font-size: 16px; 
+}
+
+/* ============= Tamanho da Fonte de 15 px ============= */
+
+.zeta {
+	font-size: 18px; 
+}
+
+.zeta a {
+	font-size: 18px; 
+}
+
+.zeta a:hover {
+	font-size: 18px; 
+}
+
+/* ============= Tamanho da Fonte de 16 px ============= */
+
+.jeta {
+	font-size: 20px; 
+}
+
+.jeta a {
+	font-size: 20px; 
+}
+
+.jeta a:hover {
+	font-size: 20px; 
+}
+
+/* ============= Efeito de underline na fonte ============= */
+
+.underline {
+	text-decoration: none;
+}
+
+.underline a {
+	text-decoration: underline;
+}
+
+.underline a:hover {
+	text-decoration: none;
+}
+
+
+
+
+
+/* ======================================================================= */
+/* ================== CSS DE CORES (Fontes e backgrounds) ================ */
+/* ======================================================================= */
+
+
+/* ================== Verde escuro ================ */
+/* ================================================ */
+
+/* ============== Cor de Font ( Links principais ) ============== */
+
+.terra {
+	color: #3566a0;
+}
+
+.terra a {
+	color: #3566a0;
+}
+
+.terra a:hover {
+	color: #000000;
+}
+
+
+/* ================== Branco ================ */
+/* ========================================== */
+
+/* ============== Cor de Font branca ( texto e link ) ============== */
+
+.mercurio {
+	color: #FFFFFF;
+}
+
+.mercurio a {
+	color: #FFFFFF;
+}
+
+.mercurio a:hover {
+	color: #ffffff;
+}
+
+/* ============== Background de cor Branca ============== */
+
+/* Branca do fundo do site */
+
+.bg_mercurio {
+	background-color: #ffffff;
+}
+
+
+
+
+/* ============================================ */
+/* ================== Tool Tip ================ */
+/* ============================================ */
+
+p#vtip { 
+	display: none; 
+	position: absolute; 
+	padding-left: 10px; padding-right:10px; padding-bottom:6px; padding-top:5px; 
+	left: 5px;
+	font-size: 12px; color:#1c3542; font-weight:bold; 
+	background-color: white; 
+	border: 1px solid #a6c9e2; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	z-index: 9999 
+}
+
+p#vtip #vtipArrow { 
+	position: absolute; 
+	top: -10px; left: 5px 
+}
+
+/* HORIZONTAL */
+#menuh
+{
+	background-image: url(/images/bg-mhrz.gif); background-repeat: repeat-x; background-position: top; background-color:#517e95;
+	position: relative;
+	float:left;
+	margin:0;
+	width:100%;
+}
+		
+#menuh a
+{
+	text-align: center;
+	display:block;
+	padding: 5px;
+	background-image: url(/images/bg-mhrz.gif); background-repeat: repeat-x; background-position: top; background-color:#517e95;
+	border: 1px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+	white-space: nowrap;
+}
+	
+#menuh a:link, #menuh a:visited, #menuh a:active	/* menu at rest */
+{
+	color: white;
+	text-decoration:none;
+}
+	
+#menuh a img, #menuh a:hover img  /* attaches down-arrow to all top-parents */
+{
+	border: 0;
+	vertical-align: top;
+}
+	
+#menuh a.parent, #menuh a.parent:hover 	/* attaches side-arrow to all parents */
+{
+	padding-right: 10px;
+	/*
+	background-image: url(/images/nav_white.gif);
+	background-position: right center;
+	background-repeat: no-repeat;
+	*/
+}
+
+#menuh ul
+	{
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:left;
+	/*width:12em;	/* width of all menu boxes */
+	/* NOTE: For adjustable menu boxes you can comment out the above width rule.
+	However, you will have to add padding in the "#menh a" rule so that the menu boxes
+	will have space on either side of the text -- try it */
+	}
+
+#menuh li
+	{
+	position:relative;
+	min-height: 1px;		 /* Sophie Dennis contribution for IE7 */
+	vertical-align: bottom;		/* Sophie Dennis contribution for IE7 */
+	background-image: url(/images/bg-mhrz.gif); background-repeat: repeat-x; background-position: top; background-color:#517e95;
+	}
+
+#menuh ul ul
+{
+	position:absolute;
+	z-index:500;
+	top:auto;
+	display:none;
+	padding: 1em;
+	margin:-1em 0 0 -1em;
+}
+
+#menuh ul ul ul
+{
+	top:0;
+	left:100%;
+}
+
+div#menuh li:hover
+	{
+	cursor:pointer;
+	z-index:100;
+	}
+
+div#menuh li:hover ul ul,
+div#menuh li li:hover ul ul,
+div#menuh li li li:hover ul ul,
+div#menuh li li li li:hover ul ul
+{display:none;}
+
+div#menuh li:hover ul,
+div#menuh li li:hover ul,
+div#menuh li li li:hover ul,
+div#menuh li li li li:hover ul
+{display:block;}
+
+/* End CSS Drop Down Menu */
+
+
+	.loadingfundo {
+			position:fixed;
+			top:0;
+			left:0;
+			z-index:9998;
+			width:100%;
+			height:100%;
+		}
+
+		.loading {
+/*			left:80%;  */
+/*			margin-left:-95px; */
+/*			margin-right: -100px;*/
+			top:0px;
+			_top:expression(eval(document.body.scrollTop));
+			position:fixed;
+			_position:absolute;
+			vertical-align: right;
+			height: 15px;
+			width: 100px;
+			background: #FFFFFF url(/images/loading.gif) no-repeat;
+			background-position: 5px 2px;
+			text-align: right;
+			padding:5px;
+			font-size:11px;
+			z-index: 9999;
+			border: 1px solid #000;  
+			display: block; 
+		}
+
+			.error 
+			{
+				color: #ff0000;
+			}
+
+
+
+.bg_loading{
+	left:0;
+	top:0;
+	width:100%;
+    height: 100%;
+    background-color:#000000;
+    float:left;
+    filter:alpha(opacity=50);
+    -moz-opacity:.50;
+    opacity:.50; 
+    filter: Alpha(Opacity=50);
+    /*background-image: url(/images/loading.gif);*/
+    /*background-repeat:repeat;*/
+    z-index:0;
+    position:fixed;
+}
+
+.erro {
+    background:#fed url(/images/erro.gif) 3px 3px no-repeat;
+    border: 1px solid red;
+    text-align:center;
+    padding: 10px;
+	padding-left: 45px;
+/*	margin-top: 10px;*/
+/*	margin-bottom: 10px;*/
+/*    font-size:12px;*/
+    display:block;
+}
+
+.sucesso {
+    background:#efd url(/images/erro.gif) 3px 3px no-repeat;
+    border: 1px solid green;
+    text-align:center;
+    padding: 10px;
+	padding-left: 45px;
+/*	margin-top: 10px;*/
+/*	margin-bottom: 10px;*/
+/*    font-size:12px;*/
+    display:block;
+}
+
+input.error { border: 1px dotted red; }
+
+label.error {
+    /* remove the next line when you have trouble in IE6 with labels in list */
+    color: red;
+    font-style: italic;
+    font-size:11px;
+    margin-left: 5px;
+}
+
+.textoErro {
+    color: #f00;
+}
+
+.textoSucesso {
+    color: #00f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

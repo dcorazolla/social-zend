@@ -1,0 +1,432 @@
+/**
+	* @name stylesite.css
+	* @desc CSS StyleSheet
+	* @version v1.0 - Brasília, 26 de Fevereiro de 2010
+	* @author Thiago Borges
+	* @category CSS
+	* @package Logic BSB
+*/
+
+/* ============================================================= */
+/* ========================== Body ============================= */
+/* ============================================================= */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+
+body {
+	background-image: url(/images/site/bg9.jpg); background-repeat:repeat-x; background-color:#a2dde3; background-position:top center;
+	line-height: 18px;
+	font-family: Arial, Verdana, sans-serif; font-size: 12px; color: #779fa0;	
+	width:100%; height:100%;
+	margin: 0; padding: 0; border: 0; outline: 0;
+}
+
+html{
+	height:100%; width:100%;
+}
+
+form{
+	margin:0; padding:0;
+}
+	
+A {
+	font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #5e94a8; text-decoration: none;
+}
+
+A:hover {
+	font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #1b4344;	text-decoration: none;
+}
+
+img {
+	border:0; padding:0; margin:0;
+}
+
+p {
+	padding-bottom:10px; margin:0;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: collapse; border-spacing: 0; }
+.clear { clear: both; }
+br.clear { margin: 0px; padding: 0px; }
+
+
+
+
+/* ==================================================== */
+/* ===================== Login ======================== */
+/* ==================================================== */
+
+.bglogo {
+	background-image: url(/images/site/login_topo.png);
+	_background-image: url(/images/site/login_topo.gif);
+	*background-image: url(/images/site/login_topo.gif);
+	background-repeat:no-repeat; background-position:bottom;
+}
+
+.bgBottomlogo {
+	background-image: url(/images/site/login_bottom_topo.gif);
+	background-repeat:no-repeat; background-position:top right;
+}
+
+.bgLogin {
+	background-color:#eeeeee;
+	padding-left:25px; padding-right:15px;
+	font-size:16px; font-weight:normal;
+}
+
+
+/* =================================================================*/
+/* ======================== Tela de Login ==========================*/
+/* =================================================================*/
+
+.formLogin {
+	background-image: url(/images/site/inputlogin.gif); background-repeat: no-repeat; background-position:top; width:209px;
+	border:0px; background-color: transparent;
+	font-family: Arial,Sans-Serif; font-size: 16px; color: #465792; text-decoration: none;
+	padding-left:10px; padding-right:10px; padding-top:6px; padding-bottom:6px;
+}
+
+.formLogin:hover {
+	background-image: url(/images/site/inputlogin.gif); background-repeat: no-repeat; background-position:bottom; width:209px;
+	border:0px; background-color: transparent;
+	font-family: Arial,Sans-Serif; font-size: 16x; color: #465792; text-decoration: none;
+	padding-left:10px; padding-right:10px; padding-top:6px; padding-bottom:6px;
+}
+
+.formLogin:focus {
+	background-image: url(/images/site/inputlogin.gif); background-repeat: no-repeat; background-position:bottom; width:209px;
+	border:0px; background-color: transparent;
+	font-family: Arial,Sans-Serif; font-size: 16px; color: #465792; text-decoration: none;
+	padding-left:10px; padding-right:10px; padding-top:6px; padding-bottom:6px;
+}
+
+.botaoLogin {	
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 	
+	border-radius: 5px;
+	
+	border:0;
+	
+	background-color: #4f89b5;
+	padding-left:25px; padding-right:25px; padding-top:5px; padding-bottom:5px;
+
+	font-family: Arial,Sans-Serif; font-size: 12px; color: #ffffff; font-weight:bold;
+	text-shadow:1px 1px #4a0808;
+}
+
+.botaoLogin:hover {	
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 	
+	border-radius: 5px;
+	
+	border:0;
+	
+	background-color: #306791;
+	padding-left:25px; padding-right:25px; padding-top:5px; padding-bottom:5px;
+
+	font-family: Arial,Sans-Serif; font-size: 12px; color: #ffffff; font-weight:bold;
+	text-shadow:1px 1px #4a0808;
+}
+
+.botaoLogin:focus {	
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 	
+	border-radius: 5px;
+	
+	border:0;
+	
+	background-color: #306791;
+	padding-left:25px; padding-right:25px; padding-top:5px; padding-bottom:5px;
+
+	font-family: Arial,Sans-Serif; font-size: 12px; color: #ffffff; font-weight:bold;
+	text-shadow:1px 1px #4a0808;
+}
+
+/* ========================================================== */
+/* ===================== Cadastre-se ======================== */
+/* ========================================================== */
+
+.bgCadastreTopo {
+	background-image: url(/images/site/login_cadastre_topo.png);
+	_background-image: url(/images/site/login_cadastre_topo.gif);
+	*background-image: url(/images/site/login_cadastre_topo.gif);
+	background-repeat:no-repeat; background-position:bottom;
+}
+
+.bgCadastreCenter {
+	padding-left:9px;
+}
+
+.bgLogin {
+	background-color:#eeeeee;
+	padding-left:25px; padding-right:15px;
+	font-size:16px; font-weight:normal;
+}
+
+
+
+
+/* ========================================================= */
+/* ===================== Formulário ======================== */
+/* ========================================================= */
+
+.input {
+	border:1px #b9cbdb solid;
+	
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 	
+	border-radius: 3px; 
+	
+	background-color: #ffffff;
+	padding:4px;
+
+	font-family: Arial,Sans-Serif; font-size: 16px; color: #64798b;	text-decoration: none;
+	-moz-box-shadow:inset 0px 3px 5px #d9f2fd; -webkit-box-shadow:inset 0px 3px 5px #d9f2fd; box-shadow:inset 0px 3px 5px #d9f2fd;
+}
+
+.input:hover {
+	border:1px #b9cbdb solid;
+	
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 	
+	border-radius: 3px; 
+	
+	background-color: #e9f2f5;
+	padding:4px;
+
+	font-family: Arial,Sans-Serif; font-size: 16px; color: #64798b;	text-decoration: none;
+	-moz-box-shadow:inset 0px 3px 5px #c7dfea; -webkit-box-shadow:inset 0px 3px 5px #c7dfea; box-shadow:inset 0px 3px 5px #c7dfea;
+}
+
+.input:focus {
+	border:1px #b9cbdb solid;
+	
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 	
+	border-radius: 3px; 
+	
+	background-color: #e9f2f5;
+	padding:4px;
+
+	font-family: Arial,Sans-Serif; font-size: 16px; color: #64798b;	text-decoration: none;
+	-moz-box-shadow:inset 0px 3px 5px #c7dfea; -webkit-box-shadow:inset 0px 3px 5px #c7dfea; box-shadow:inset 0px 3px 5px #c7dfea;
+}
+
+
+
+
+/* =====================================================================================*/
+/* =============================== Tamanhos de Fonts ===================================*/
+/* =====================================================================================*/
+
+/* ============= Italic ( italico ) ============= */
+
+.italic {
+	font-style:italic;
+}
+
+.italic a {
+	font-style:italic;
+}
+
+.italic a:hover {
+	font-style:italic;
+}
+
+
+/* ============= Bold ( negrito ) ============= */
+
+.bold {
+	font-weight: bold;
+}
+
+.bold a {
+	font-weight: bold;
+}
+
+.bold a:hover {
+	font-weight: bold;
+}
+
+/* ============= Tamanho da Fonte de 10 px ============= */
+
+.brod {
+	font-size: 10px; 
+}
+
+.brod a {
+	font-size: 10px; 
+}
+
+.brod a:hover {
+	font-size: 10px; 
+}
+
+/* ============= Tamanho da Fonte de 12 px ============= */
+
+.alpha {
+	font-size: 12px; 
+}
+
+.alpha a {
+	font-size: 12px; 
+}
+
+.alpha a:hover {
+	font-size: 12px; 
+}
+
+/* ============= Tamanho da Fonte de 13 px ============= */
+
+.beta {
+	font-size: 14px; 
+}
+
+.beta a {
+	font-size: 14px; 
+}
+
+.beta a:hover {
+	font-size: 14px; 
+}
+
+/* ============= Tamanho da Fonte de 14 px ============= */
+
+.gama {
+	font-size: 16px; 
+}
+
+.gama a {
+	font-size: 16px; 
+}
+
+.gama a:hover {
+	font-size: 16px; 
+}
+
+/* ============= Tamanho da Fonte de 15 px ============= */
+
+.zeta {
+	font-size: 18px; 
+}
+
+.zeta a {
+	font-size: 18px; 
+}
+
+.zeta a:hover {
+	font-size: 18px; 
+}
+
+/* ============= Tamanho da Fonte de 16 px ============= */
+
+.jeta {
+	font-size: 20px; 
+}
+
+.jeta a {
+	font-size: 20px; 
+}
+
+.jeta a:hover {
+	font-size: 20px; 
+}
+
+/* ============= Efeito de underline na fonte ============= */
+
+.underline {
+	text-decoration: none;
+}
+
+.underline a {
+	text-decoration: underline;
+}
+
+.underline a:hover {
+	text-decoration: none;
+}
+
+
+
+
+
+/* ======================================================================= */
+/* ================== CSS DE CORES (Fontes e backgrounds) ================ */
+/* ======================================================================= */
+
+
+/* ================== Verde escuro ================ */
+/* ================================================ */
+
+/* ============== Cor de Font ( Links principais ) ============== */
+
+.terra {
+	color: #3566a0;
+}
+
+.terra a {
+	color: #3566a0;
+}
+
+.terra a:hover {
+	color: #000000;
+}
+
+
+/* ================== Branco ================ */
+/* ========================================== */
+
+/* ============== Cor de Font branca ( texto e link ) ============== */
+
+.mercurio {
+	color: #FFFFFF;
+}
+
+.mercurio a {
+	color: #FFFFFF;
+}
+
+.mercurio a:hover {
+	color: #ffffff;
+}
+
+/* ============== Background de cor Branca ============== */
+
+/* Branca do fundo do site */
+
+.bg_mercurio {
+	background-color: #ffffff;
+}
+
+
+
+
+/* ============================================ */
+/* ================== Tool Tip ================ */
+/* ============================================ */
+
+p#vtip { 
+	display: none; 
+	position: absolute; 
+	padding-left: 10px; padding-right:10px; padding-bottom:6px; padding-top:5px; 
+	left: 5px;
+	font-size: 12px; color:#1c3542; font-weight:bold; 
+	background-color: white; 
+	border: 1px solid #a6c9e2; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	z-index: 9999 
+}
+
+p#vtip #vtipArrow { 
+	position: absolute; 
+	top: -10px; left: 5px 
+}

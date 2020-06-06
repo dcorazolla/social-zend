@@ -1,0 +1,122 @@
+#container {
+	margin: auto;
+	position:relative;
+	height:34px;
+	margin-top:-18px;
+	z-index:22;
+}
+
+.navigation ul {
+	float: right;
+	display: block;
+	list-style-type: none;
+}
+
+.navigation li {
+	float: left;
+	display: block;
+	list-style-type: none;
+}
+
+.navigation li a {
+	height: 34px;
+	width: 40px;
+	text-indent: -9999px;
+	display: block;
+}
+
+li.button1 {
+	background-image: url(/images/site/redes.png);
+	_background-image: url(/images/site/redes.gif);
+	*background-image: url(/images/site/redes.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+li.button2 {
+	background-image: url(/images/site/redes.png);
+	_background-image: url(/images/site/redes.gif);
+	*background-image: url(/images/site/redes.gif);
+	background-repeat: no-repeat;
+	background-position: -40px top;
+}
+
+li.button3 {
+	background-image: url(/images/site/redes.png);
+	_background-image: url(/images/site/redes.gif);
+	*background-image: url(/images/site/redes.gif);
+	background-repeat: no-repeat;
+	background-position: -80px top;
+}
+
+li.button4 {
+	background-image: url(/images/site/redes.png);
+	_background-image: url(/images/site/redes.gif);
+	*background-image: url(/images/site/redes.gif);
+	background-repeat: no-repeat;
+	background-position: -120px top;
+}
+
+li.button5 {
+	background-image: url(/images/site/redes.png);
+	_background-image: url(/images/site/redes.gif);
+	*background-image: url(/images/site/redes.gif);
+	background-repeat: no-repeat;
+	background-position: -160px top;
+}
+
+li.button6 {
+	background-image: url(/images/site/redes.png);
+	_background-image: url(/images/site/redes.gif);
+	*background-image: url(/images/site/redes.gif);
+	background-repeat: no-repeat;
+	background-position: -200px top;
+}
+
+li.button1 a:hover {
+	background-image: url(/images/site/redes.png);
+	_background-image: url(/images/site/redes.gif);
+	*background-image: url(/images/site/redes.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+li.button2 a:hover {
+	background-image: url(/images/site/redes.png);
+	_background-image: url(/images/site/redes.gif);
+	*background-image: url(/images/site/redes.gif);
+	background-repeat: no-repeat;
+	background-position: -40px bottom;
+}
+
+li.button3 a:hover {
+	background-image: url(/images/site/redes.png);
+	_background-image: url(/images/site/redes.gif);
+	*background-image: url(/images/site/redes.gif);
+	background-repeat: no-repeat;
+	background-position: -80px bottom;
+}
+
+li.button4 a:hover {
+	background-image: url(/images/site/redes.png);
+	_background-image: url(/images/site/redes.gif);
+	*background-image: url(/images/site/redes.gif);
+	background-repeat: no-repeat;
+	background-position: -120px bottom;
+}
+
+li.button5 a:hover {
+	background-image: url(/images/site/redes.png);
+	_background-image: url(/images/site/redes.gif);
+	*background-image: url(/images/site/redes.gif);
+	background-repeat: no-repeat;
+	background-position: -160px bottom;
+}
+
+li.button6 a:hover {
+	background-image: url(/images/site/redes.png);
+	_background-image: url(/images/site/redes.gif);
+	*background-image: url(/images/site/redes.gif);
+	background-repeat: no-repeat;
+	background-position: -200px bottom;
+}

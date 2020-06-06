@@ -1,0 +1,57 @@
+version: '3.4'
+services:
+            
+    social-zend:
+        container_name: social-zend
+        build:
+            context: .
+            dockerfile: Dockerfile-app
+        ports:
+            - "8080:80"
+        volumes:
+            - "../source/:/var/www/html/"
+        networks:
+            - social-zend
+            - mysql
+    mysql:
+        image: mysql:5
+        command: --default-authentication-plugin=mysql_native_password
+        container_name: mysql
+        restart: unless-stopped
+        ports:
+            - "3306:3306"
+            - "33060:33060"
+        volumes:
+            - "mysqlconfig5:/etc/mysql/conf.d"
+            - "mysqldados5:/var/lib/mysql"
+            - "./bancos_iniciar:/docker-entrypoint-initdb.d"
+        networks:
+            - mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: 123456
+            
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        container_name: phpmyadmin
+        restart: unless-stopped
+        ports:
+            - "8086:80"
+        networks:
+            - mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: 123456
+            PMA_ARBITRARY: 1
+
+volumes:
+    mysqlconfig5:
+        driver: local
+        name: mysqlconfig5
+    mysqldados5:
+        driver: local
+        name: mysqldados5
+        
+networks:
+    social-zend:
+        driver: bridge
+    mysql:
+        driver: bridge

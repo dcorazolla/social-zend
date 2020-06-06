@@ -1,0 +1,2679 @@
+/**
+
+	* @name stylesite.css
+
+	* @desc CSS StyleSheet
+
+	* @version v1.0 - Brasília, 06 de Dezembro de 2010
+
+	* @author Thiago Borges
+
+	* @category CSS
+
+	* @package Mirtes Net
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================= */
+
+/* ========================== Body ============================= */
+
+/* ============================================================= */
+
+
+
+BODY{
+
+	background-color:#c4d4e9;
+
+	font-family:Arial,Verdana,Sans-Serif; font-size: 12px; color: #313131; 
+
+	margin: 0; padding:0;
+
+	width:100%; height:100%;
+
+}
+
+
+
+html{
+
+	height:100%; width:100%;
+
+}
+
+
+
+form{
+
+	margin:0; padding:0;
+
+}
+
+	
+
+A {
+
+	font-family: Arial,Verdana,Sans-Serif; font-size: 12px; color: #24639b; text-decoration: none;
+
+}
+
+
+
+A:hover {
+
+	font-family: Arial,Verdana,Sans-Serif; font-size: 12px; color: #000000;	text-decoration: none;
+
+}
+
+
+
+img {
+
+	border:0; padding:0; margin:0;
+
+}
+
+
+
+
+
+
+
+
+
+/* ================================================================================*/
+
+/* ======================== Links de Edição do publicare ==========================*/
+
+/* ================================================================================*/
+
+
+
+/* === Background edição === */
+
+
+
+.bgEdit {
+
+	background-image: url(/images/site/bg_edit.gif); background-repeat: repeat-x; background-position: top; background-color:#dfdfdf;
+
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#597a8f; font-weight:bold;
+
+	 padding-top:7px; padding-bottom:7px;
+
+}
+
+
+
+/* === Link de edição do publicare === */
+
+
+
+.linkEdit a {
+
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#597a8f; font-weight:bold;
+
+	padding-left:20px; padding-right:20px;
+
+	text-shadow:1px 1px #ffffff;
+
+}
+
+
+
+.linkEdit a:hover {
+
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000; font-weight:bold;
+
+	padding-left:20px; padding-right:20px;
+
+	text-shadow:1px 1px #ffffff;
+
+}
+
+
+
+
+
+
+
+
+
+/* ==============================================================================*/
+
+/* ======================== Barra Data e Redes Sociais ==========================*/
+
+/* ==============================================================================*/
+
+
+
+.bgBarraDtRs {
+
+	background-image: url(/images/site/bg_barra.gif); background-repeat: repeat-x; background-position:bottom; background-color:#1a3858;
+
+	border-bottom:5px #c9d2db solid;
+
+}
+
+
+
+.formatData {
+
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#d1dce7;
+
+}
+
+
+
+.formatData a {
+
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#d1dce7;
+
+}
+
+
+
+.formatData a:hover {
+
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#ffffff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================*/
+
+/* ======================== Logo e Busca ==========================*/
+
+/* ================================================================*/
+
+
+
+.bgBarraLgBc {
+
+	background-image: url(/images/site/bg_topo.gif); background-repeat: repeat-x; background-position:top; background-color:#e9f0f8;
+
+	border-bottom:1px #ffffff solid; border-top:1px #ffffff solid;
+
+}
+
+
+
+.bgNuvem {
+
+	background-image: url(/images/site/bg_nuvem.jpg); background-repeat: no-repeat; background-position:top center;
+
+}
+
+
+
+.bgBusca {
+
+	background-image: url(/images/site/bg_busca.gif); background-repeat: no-repeat; width:183px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:30px; padding-top:8px; padding-bottom:8px;
+
+	font-family: Arial,Sans-Serif; font-size: 14px; color: #6a8894; text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+/* ====================================================================*/
+
+/* ======================== Campo Formulário ==========================*/
+
+/* ====================================================================*/
+
+
+
+/* === Background de Login === */
+
+
+
+.bgLogin {
+
+	background-image: url(/images/site/bglogin.gif); background-repeat: no-repeat; background-position:top; height:63px;
+
+	padding-left:80px;
+
+}
+
+
+
+/* Campo Formuláro Input Login */
+
+
+
+.inputLogin {
+
+	background-image: url(/images/site/campologin.gif); background-repeat: no-repeat; width:128px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:4px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 16px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.inputLogin:hover {
+
+	background-image: url(/images/site/campologin2.gif); background-repeat: no-repeat; width:128px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:4px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 16px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.inputLogin:focus {
+
+	background-image: url(/images/site/campologin2.gif); background-repeat: no-repeat; width:128px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:4px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 16px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+/* Campo Formuláro Input */
+
+
+
+.input {
+
+	background-image: url(/images/site/input_news.gif); background-repeat: no-repeat; width:285px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.input:hover {
+
+	background-image: url(/images/site/input_news2.gif); background-repeat: no-repeat; width:285px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.input:focus {
+
+	background-image: url(/images/site/input_news2.gif); background-repeat: no-repeat; width:285px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+
+
+/* Campo Formuláro Input 2 */
+
+
+
+.input2 {
+
+	border-bottom:2px #fafafa solid;
+
+	border-right:2px #fafafa solid;
+
+	border-top:2px #bcc3cb solid;
+
+	border-left:2px #bcc3cb solid;
+
+	
+
+	-moz-border-radius: 7px; 
+
+	-webkit-border-radius: 7px; 	
+
+	border-radius: 7px; 
+
+	
+
+	background-color: #ffffff;
+
+	padding:4px;
+
+
+
+	font-family: Arial,Sans-Serif; font-size: 14px; color: #44596e;	text-decoration: none;
+
+	-moz-box-shadow:inset 0 0 15px #e9e9ea; -webkit-box-shadow:inset 0 0 15px #e9e9ea; box-shadow:inset 0 0 15px #e9e9ea;
+
+}
+
+
+
+.input2:hover {
+
+	border-bottom:2px #e9eef1 solid;
+
+	border-right:2px #e9eef1 solid;
+
+	border-top:2px #98a8b5 solid;
+
+	border-left:2px #98a8b5 solid;
+
+	
+
+	-moz-border-radius: 7px; 
+
+	-webkit-border-radius: 7px; 	
+
+	border-radius: 7px; 
+
+	
+
+	background-color: #eaf1f4;
+
+	padding:4px;
+
+
+
+	font-family: Arial,Sans-Serif; font-size: 14px; color: #44596e;	text-decoration: none;
+
+	-moz-box-shadow:inset 0 0 15px #b4c3ca; -webkit-box-shadow:inset 0 0 15px #b4c3ca; box-shadow:inset 0 0 15px #b4c3ca;
+
+}
+
+
+
+.input2:focus {
+
+	border-bottom:2px #e9eef1 solid;
+
+	border-right:2px #e9eef1 solid;
+
+	border-top:2px #98a8b5 solid;
+
+	border-left:2px #98a8b5 solid;
+
+	
+
+	-moz-border-radius: 7px; 
+
+	-webkit-border-radius: 7px; 	
+
+	border-radius: 7px; 
+
+	
+
+	background-color: #eaf1f4;
+
+	padding:4px;
+
+
+
+	font-family: Arial,Sans-Serif; font-size: 14px; color: #44596e;	text-decoration: none;
+
+	-moz-box-shadow:inset 0 0 15px #b4c3ca; -webkit-box-shadow:inset 0 0 15px #b4c3ca; box-shadow:inset 0 0 15px #b4c3ca;
+
+}
+
+
+
+/* Campo Formuláro Input da busca de usuários */
+
+
+
+.inputUsuario {
+
+	background-image: url(/images/site/campobusca1.gif); background-repeat: no-repeat; width:200px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.inputUsuario:hover {
+
+	background-image: url(/images/site/campobusca2.gif); background-repeat: no-repeat; width:200px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.inputUsuario:focus {
+
+	background-image: url(/images/site/campobusca2.gif); background-repeat: no-repeat; width:200px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+/* Campo Formuláro Input Tags */
+
+
+
+.areaTags {
+
+	background-image: url(/images/site/input_tags2.gif); background-repeat: no-repeat; width:282px; height:62px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.areaTags:hover {
+
+	background-image: url(/images/site/input_tags.gif); background-repeat: no-repeat; width:282px; height:62px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.areaTags:focus {
+
+	background-image: url(/images/site/input_tags.gif); background-repeat: no-repeat; width:282px; height:62px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+/* Campo Formuláro Botão */
+
+
+
+.botao {
+
+	background-image: url(/images/site/botao.gif); background-repeat: no-repeat; width:137px;
+
+	border:0px; background-color: transparent;
+
+	padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 12px; font-weight:bold; color: #ffffff; text-decoration: none;
+
+}
+
+
+
+.botao:hover {
+
+	background-image: url(/images/site/botao2.gif); background-repeat: no-repeat; width:137px;
+
+	border:0px; background-color: transparent;
+
+	padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 12px; font-weight:bold; color: #ffffff; text-decoration: none;
+
+}
+
+
+
+.botao:focus {
+
+	background-image: url(/images/site/botao2.gif); background-repeat: no-repeat; width:137px;
+
+	border:0px; background-color: transparent;
+
+	padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 12px; font-weight:bold; color: #ffffff; text-decoration: none;
+
+}
+
+
+
+/* Campo Formuláro Input Contato */
+
+
+
+.inputContato {
+
+	background-image: url(/images/site/campoinput.gif); background-repeat: no-repeat; width:230px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.inputContato:hover {
+
+	background-image: url(/images/site/campoinput2.gif); background-repeat: no-repeat; width:230px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.inputContato:focus {
+
+	background-image: url(/images/site/campoinput2.gif); background-repeat: no-repeat; width:230px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+/* Campo Formuláro Input text area Contato */
+
+
+
+.textContato {
+
+	background-image: url(/images/site/campotext.gif); background-repeat: no-repeat; width:230px; height:64px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:6px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.textContato:hover {
+
+	background-image: url(/images/site/campotext2.gif); background-repeat: no-repeat; width:230px; height:64px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:6px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.textContato:focus {
+
+	background-image: url(/images/site/campotext2.gif); background-repeat: no-repeat; width:230px; height:64px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:6px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+/* Campo Formuláro Input Código de confirmação Contato */
+
+
+
+.inputData {
+
+	background-image: url(/images/site/campodata.gif); background-repeat: no-repeat; width:86px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.inputData:hover {
+
+	background-image: url(/images/site/campodata2.gif); background-repeat: no-repeat; width:86px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.inputData:focus {
+
+	background-image: url(/images/site/campodata2.gif); background-repeat: no-repeat; width:86px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+/* Campo Formuláro Input Depoimentos */
+
+
+
+.inputDepoimento {
+
+	background-image: url(/images/site/campodepo.gif); background-repeat: no-repeat; width:455px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.inputDepoimento:hover {
+
+	background-image: url(/images/site/campodepo2.gif); background-repeat: no-repeat; width:455px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.inputDepoimento:focus {
+
+	background-image: url(/images/site/campodepo2.gif); background-repeat: no-repeat; width:455px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.textDepoimento {
+
+	background-image: url(/images/site/campoareadepo.gif); background-repeat: no-repeat; width:453px; height:106px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.textDepoimento:hover {
+
+	background-image: url(/images/site/campoareadepo2.gif); background-repeat: no-repeat; width:453px; height:106px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+.textDepoimento:focus {
+
+	background-image: url(/images/site/campoareadepo2.gif); background-repeat: no-repeat; width:453px; height:106px;
+
+	border:0px; background-color: transparent;
+
+	padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #448bbc; text-decoration: none;
+
+}
+
+
+
+/* Campo Formuláro Botão Entrar */
+
+
+
+.botaoLogin {
+
+	background-image: url(/images/site/botao_entrar.gif); background-repeat: no-repeat; width:77px;
+
+	border:0px; background-color: transparent;
+
+	padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 12px; font-weight:bold; color: #ffffff; text-decoration: none;
+
+}
+
+
+
+.botaoLogin:hover {
+
+	background-image: url(/images/site/botao_entrar2.gif); background-repeat: no-repeat; width:77px;
+
+	border:0px; background-color: transparent;
+
+	padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 12px; font-weight:bold; color: #ffffff; text-decoration: none;
+
+}
+
+
+
+.botaoLogin:focus {
+
+	background-image: url(/images/site/botao_entrar2.gif); background-repeat: no-repeat; width:77px;
+
+	border:0px; background-color: transparent;
+
+	padding-top:5px; padding-bottom:6px;
+
+	font-family: Helvetica, Arial, sans-serif; font-size: 12px; font-weight:bold; color: #ffffff; text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================== */
+
+/* ===================== Menu Horizontal ======================== */
+
+/* ============================================================== */
+
+
+
+/* === Background do Menu Horizontal === */
+
+
+
+.bgMhTop {
+
+	background-image: url(/images/site/bg_top_mh.gif); background-repeat: repeat-x; background-position:top; background-color:#dde8eb;
+
+	padding-top:8px; border-bottom:1px #ffffff solid;
+
+}
+
+
+
+/* === Background do Menu Horizontal === */
+
+
+
+.bgMh {
+
+	background-image: url(/images/site/bg_mh.gif); background-repeat: repeat-x; background-position:bottom; background-color:#f4f7f8;
+
+	border-top:1px #ffffff solid;
+
+}
+
+
+
+/* === Link do Menu Horizontal === */
+
+
+
+.linkPost {
+
+	font-family: Arial, Helvetica, sans-serif; font-size:16px; font-weight:; cursor:pointer;
+
+}
+
+
+
+.linkPost a {
+
+	font-family: Arial, Helvetica, sans-serif; font-size:16px; font-weight:;
+
+}
+
+
+
+.linkPost a:hover {	
+
+	font-family: Arial, Helvetica, sans-serif; font-size:16px; font-weight:;
+
+}
+
+
+
+/* === Link do Menu Horizontal === */
+
+
+
+.linkMH a {
+
+	font-family: Arial, Helvetica, sans-serif; font-size:16px;
+
+	display:block;
+
+	padding-left:20px; padding-right:20px; padding-top:10px; padding-bottom:11px;
+
+}
+
+
+
+.linkMH a:hover {	
+
+	background-image: url(/images/site/bg_mh_select.gif); background-repeat: repeat-x; background-position:bottom; background-color:#dee8eb;
+
+	font-family: Arial, Helvetica, sans-serif; font-size:16px; color:#517d8d;
+
+	display:block;
+
+	padding-left:19px; padding-right:19px; padding-top:11px; padding-bottom:11px;
+
+	margin-top:-1px; position:relative;
+
+	border-left:1px #d4e0e4 solid; border-right:1px #f8f9f9 solid;
+
+}
+
+
+
+.linkMHSelect a {	
+
+	background-image: url(/images/site/bg_mh_select.gif); background-repeat: repeat-x; background-position:bottom; background-color:#dee8eb;
+
+	font-family: Arial, Helvetica, sans-serif; font-size:16px; color:#517d8d;
+
+	display:block;
+
+	padding-left:19px; padding-right:19px; padding-top:11px; padding-bottom:11px;
+
+	margin-top:-1px; position:relative;
+
+	border-left:1px #d4e0e4 solid; border-right:1px #f8f9f9 solid;
+
+}
+
+
+
+.linkMHSelect a:hover {	
+
+	background-image: url(/images/site/bg_mh_select.gif); background-repeat: repeat-x; background-position:bottom; background-color:#dee8eb;
+
+	font-family: Arial, Helvetica, sans-serif; font-size:16px; color:#517d8d;
+
+	display:block;
+
+	padding-left:19px; padding-right:19px; padding-top:11px; padding-bottom:11px;
+
+	margin-top:-1px; position:relative;
+
+	border-left:1px #d4e0e4 solid; border-right:1px #f8f9f9 solid;
+
+}
+
+
+
+
+
+
+
+/* ============================================================= */
+
+/* ===================== Página Inicial ======================== */
+
+/* ============================================================= */
+
+
+
+.tituloDestaquesInicial {
+
+	font-family: Calibri, Times New Roman, Arial, Verdana; font-size:26px; padding-bottom:10px; border-bottom:1px #666666 dotted; margin-bottom:20px;
+
+}
+
+
+
+.bgTestimunialBottom {
+
+	background-image: url(/images/site/virgula_bottom.gif); background-repeat: no-repeat; background-position: bottom right;
+
+	padding-top:20px; padding-bottom:20px; padding-left:20px; padding-right:20px; text-align:center;
+
+}
+
+
+
+/* === Link Inicial === */
+
+
+
+.linkInicial {
+
+	background-image: url(/images/site/bullet_inicial.gif); background-repeat: no-repeat; background-position: 0px 10px;
+
+	padding-top:7px; padding-bottom:7px; border-bottom:1px #dddddd dashed;
+
+	padding-left:20px;
+
+}
+
+
+
+.linkInicial a {
+
+	font-size:12px; font-weight:bold;
+
+}
+
+
+
+.linkInicial a:hover {
+
+	font-size:12px; font-weight:bold;
+
+}
+
+
+
+
+
+
+
+
+
+/* ======================================================= */
+
+/* ===================== Conteúdo ======================== */
+
+/* ======================================================= */
+
+
+
+.contTopo2 {
+
+	background-image: url(/images/site/bg_cont2.gif); background-repeat: repeat-x; background-position:top;
+
+}
+
+
+
+.contTopo {
+
+	background-image: url(/images/site/bg_cont.gif); background-repeat: no-repeat; background-position:top center;
+
+}
+
+
+
+.img {
+
+	background-image: url(/images/site/img.jpg); background-repeat: no-repeat; background-position:top center;
+
+}
+
+
+
+
+
+/* ==================================================================== */
+
+/* ===================== Destaques de Notícias ======================== */
+
+/* ==================================================================== */
+
+
+
+.bgNoticia {
+
+	background-image: url(/images/site/news_bg.gif); background-repeat: repeat-y; background-position:center;
+
+	padding-left: 6px; padding-right:6px;
+
+}
+
+
+
+.bgNews {
+
+	background-image: url(/images/site/news_bg_center.jpg); background-repeat:no-repeat; background-position:top center;
+
+	padding-top:10px; padding-bottom:10px;
+
+}
+
+
+
+.bgIntNews {
+
+	background-image: url(/images/site/news_bg_center.jpg); background-repeat:no-repeat; background-position:top center;
+
+}
+
+
+
+/* ===================== Data da Notícia ======================== */
+
+
+
+.bgNewsTit {
+
+	background-image: url(/images/site/bg_data.png);
+
+	*background-image: url(/images/site/bg_data.gif);
+
+	_background-image: url(/images/site/bg_data.gif);
+
+	background-repeat:no-repeat; background-position:top right;
+
+	height:87px; padding-top:19px;
+
+}
+
+
+
+.dataMes {
+
+	color:#FFFFFF; font-size:10px; font-weight:bold; margin:0; padding:0;
+
+}
+
+
+
+.dataDia {
+
+	color:#FFFFFF; font-size:20px; font-weight:bold; margin:0; padding:0;
+
+}
+
+
+
+.dataAno {
+
+	color:#FFFFFF; font-size:10px; font-weight:bold; margin:0; padding:0;
+
+}
+
+
+
+
+
+/* ===================== Tags da Notícia ======================== */
+
+
+
+.tag {
+
+	color:#1fa2e1; font-size:12px;
+
+}
+
+
+
+.tag a {
+
+	color:#1fa2e1; font-size:12px;
+
+}
+
+
+
+.tag a:hover {
+
+	color:#0a6a9a; font-size:12px;
+
+}
+
+
+
+/* ===================== Título da Notícia ======================== */
+
+
+
+.newsTit {
+
+	color:#2d79a5; font-size:20px; text-shadow:1px 1px 1px #ffffff;
+
+}
+
+
+
+.newsTit a {
+
+	color:#2d79a5; font-size:20px; text-shadow:1px 1px 1px #ffffff;
+
+}
+
+
+
+.newsTit a:hover {
+
+	color:#000000; font-size:20px; text-shadow:1px 1px 1px #ffffff;
+
+}
+
+
+
+/* ===================== Borda das Fotos da notícia ======================== */
+
+
+
+.bordaFotosNews {
+
+	border-right: 2px #cccccc solid;
+
+	border-bottom: 2px #cccccc solid;
+
+	border-top: 2px #ffffff solid;
+
+	border-left: 2px #ffffff solid;
+
+	padding:5px; background-color:#f0f0f0;
+
+}
+
+
+
+/* ===================== Link Leia mais usuário e comentários ======================== */
+
+
+
+.newsLink {
+
+	color:#000000; font-size:14px;
+
+}
+
+
+
+.newsLink a {
+
+	color:#1fa2e1; font-size:14px;
+
+}
+
+
+
+.newsLink a:hover {
+
+	color:#0a6a9a; font-size:14px;
+
+}
+
+
+
+
+
+
+
+
+
+/* ================================================================================================ */
+
+/* ===================== Lateral Direita ( Posts, tags, banners e etc... ) ======================== */
+
+/* ================================================================================================ */
+
+
+
+.bgDest {
+
+	background-image: url(/images/site/dest_center.gif); background-repeat: repeat-y; background-position:center;
+
+	padding-left: 6px; padding-right:6px;
+
+}
+
+
+
+.paddingDest {
+
+	padding-left: 10px; padding-right:10px; padding-top:10px; padding-bottom:10px;
+
+}
+
+
+
+.bgTitDest {
+
+	background-image: url(/images/site/bg_tit_dest.jpg); background-repeat: no-repeat; background-position:left top;
+
+	padding-top: 2px; padding-bottom:2px;
+
+	font-size:16px; color:#FFFFFF;
+
+}
+
+
+
+.bgTitNews {
+
+	background-image: url(/images/site/bg_tit_news.jpg); background-repeat: no-repeat; background-position:left top;
+
+	padding-top: 2px; padding-bottom:2px;
+
+}
+
+
+
+.linhaDestTop {
+
+	background-image: url(/images/site/borda_tit.gif); background-repeat: repeat-x; background-position:left top;
+
+}
+
+
+
+.linhaDestBottom {
+
+	background-image: url(/images/site/borda_tit.gif); background-repeat: repeat-x; background-position:left bottom;
+
+	padding-top: 8px; padding-bottom:8px; padding-left:15px; padding-right:15px;
+
+}
+
+
+
+/* ===================== Perfil do Usuário ======================== */
+
+
+
+.bgPerfil {
+
+	background-color:#f5f9fa; border:1px #e0e8ec solid;
+
+}
+
+
+
+.bgPerfil1 {
+
+	border:1px #eff4f6 solid;
+
+	-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;
+
+}
+
+
+
+.bgPerfil2 {
+
+	background-color:#fbfdfd; border:1px #ffffff solid; padding:15px;
+
+	-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;
+
+	-moz-box-shadow:inset 0 0 25px #e8e8f2; -webkit-box-shadow:inset 0 0 25px #e8e8f2; box-shadow:inset 0 0 25px #e8e8f2;
+
+}
+
+
+
+.bordaPerfil {
+
+	border:1px #ffffff solid; padding:15px;
+
+}
+
+
+
+.fotoPerfil {
+
+	border-top:1px #ffffff solid; 
+
+	border-left:1px #ffffff solid; 
+
+	border-right:1px #e0e8ec solid; 
+
+	border-bottom:1px #e0e8ec solid;
+
+	padding:5px;
+
+	background-color:#ecf2f4; 
+
+}
+
+
+
+.bgPerfilVizualizar {
+
+	background-color:#ecf2f4; 
+
+	border-left:1px #e0e8ec solid; 
+
+	border-right:1px #e0e8ec solid; 
+
+	border-bottom:1px #e0e8ec solid; 
+
+	padding-left:15px; padding-right:15px;  padding-top:5px;  padding-bottom:5px;
+
+	font-weight:bold; cursor:pointer;
+
+}
+
+
+
+.paddingPerfil {
+
+	padding-top:2px; padding-bottom:2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ===================== Borda das Fotos ======================== */
+
+
+
+.bordaFotos {
+
+	border: 1px #dcdcdc solid; padding:1px;
+
+}
+
+
+
+/* ===================== texto de cor amarelo para destaque ======================== */
+
+
+
+.textoNormal {
+
+	font-family: Arial, Helvetica, sans-serif; font-size:14px; color:#4a4a4c;
+
+}
+
+
+
+
+
+
+
+
+
+/* ======================================================= */
+
+/* ===================== Notícias ======================== */
+
+/* ======================================================= */
+
+
+
+/* === Link das Notícias === */
+
+
+
+.data {
+
+	font-family: Arial, Helvetica, sans-serif; font-size:10px; color:#000000; font-weight:bold; font-style:italic;
+
+}
+
+
+
+.linkNoticias a {
+
+	font-family: Arial, Helvetica, sans-serif; font-size:12px; color:#e0930a; font-weight:bold;
+
+}
+
+
+
+.linkNoticias a:hover {	
+
+	font-family: Arial, Helvetica, sans-serif; font-size:12px; color:#e0930a; font-weight:bold;
+
+}
+
+
+
+/* ===================== Formatação de links saiba mais ======================== */
+
+
+
+.saibamais a {
+
+	font-family: Arial, Helvetica, sans-serif; font-size:12px; color:#e0930a;
+
+}
+
+
+
+.saibamais a:hover {	
+
+	font-family: Arial, Helvetica, sans-serif; font-size:12px; color:#e0930a;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================================== */
+
+/* ===================== Páginas Internas ======================== */
+
+/* =============================================================== */
+
+
+
+.bgTituloInterno {
+
+	background-image: url(/images/site/listra.png);
+
+	_background-image: url(/images/site/listra.jpg);
+
+	*background-image: url(/images/site/listra.jpg);
+
+	background-repeat: no-repeat; background-position: top center;
+
+	padding-top:30px; padding-bottom:20px;
+
+}
+
+
+
+.tituloPaginaInterno {	
+
+	font-family: Times New Roman, Arial, Helvetica, sans-serif; font-size:24px; color:#ffffff; font-weight:bold;
+
+	text-shadow:1px 1px #0e283a;
+
+}
+
+
+
+.tituloDestaqueInterno a {	
+
+	font-family: Times New Roman, Arial, Helvetica, sans-serif; font-size:24px; color:#ffffff; font-weight:bold;
+
+	text-shadow:1px 1px #0e283a;
+
+}
+
+
+
+.tituloDestaqueInterno a:hover {	
+
+	font-family: Times New Roman, Arial, Helvetica, sans-serif; font-size:24px; color:#ffffff; font-weight:bold;
+
+	text-shadow:1px 1px #0e283a;
+
+}
+
+
+
+.titulofaq {	
+
+	font-family: Times New Roman, Arial, Helvetica, sans-serif; font-size:22px; color:#487ca7; font-weight:bold;
+
+	text-shadow:1px 1px #ffffff;
+
+}
+
+
+
+.titulofaq a {	
+
+	font-family: Times New Roman, Arial, Helvetica, sans-serif; font-size:22px; color:#487ca7; font-weight:bold;
+
+	text-shadow:1px 1px #ffffff;
+
+}
+
+
+
+.titulofaq a:hover {	
+
+	font-family: Times New Roman, Arial, Helvetica, sans-serif; font-size:22px; color:#487ca7; font-weight:bold;
+
+	text-shadow:1px 1px #ffffff;
+
+}
+
+
+
+
+
+
+
+
+
+/* ================================================================ */
+
+/* ========================== Caminho ============================= */
+
+/* ================================================================ */
+
+
+
+
+
+.caminho {
+
+	border-width: 1px; border-color: #cbcbcb; border-style: solid; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+
+	background-image: url(/images/site/bg_caminho.gif); background-repeat:repeat-x; background-position: top; background-color:#edecec;
+
+	
+
+	padding-left:5px; padding-right:5px;
+
+		
+
+	color:#909090; font-family: Arial, Helvetica, sans-serif; font-size:12px;
+
+}
+
+
+
+.caminho a {	
+
+	font-family: Arial, Helvetica, sans-serif; font-size:12px; color:#4580a2;
+
+	text-shadow: 1px 1px #ffffff;
+
+}
+
+
+
+.caminho a:hover {
+
+	font-family: Arial, Helvetica, sans-serif; font-size:12px; color:#000000;
+
+	text-shadow: 1px 1px #ffffff;
+
+}
+
+
+
+
+
+.sepCaminho {
+
+	background-image: url(/images/site/sep_caminho.gif); background-repeat:no-repeat; background-position: right; 
+
+	
+
+	padding-left:10px; padding-right:25px; padding-top:6px; padding-bottom:6px;
+
+}
+
+
+
+
+
+
+
+
+
+/* =============================================================== */
+
+/* ========================== Rodapé ============================= */
+
+/* =============================================================== */
+
+
+
+.bgRodape {
+
+	background-image: url(/images/site/bg_rodape.gif); background-repeat: no-repeat; background-position: top center;
+
+	padding-top:25px;
+
+}
+
+
+
+.bgRodape2 {
+
+	background-image: url(/images/site/bg_rodape2.gif); background-repeat: repeat-x; background-position: top center;
+
+}
+
+
+
+.rodape {
+
+	background-color:#f2f2f2; padding-top:15px; padding-bottom:15px;
+
+	border-top:1px #e6e6e6 solid; 
+
+	font-family: Arial, Helvetica, sans-serif; font-size:12px;
+
+}
+
+
+
+.rodape a {
+
+	font-family: Arial, Helvetica, sans-serif; font-size:12px;
+
+	text-decoration:underline;
+
+}
+
+
+
+.rodape a:hover {
+
+	font-family: Arial, Helvetica, sans-serif; font-size:12px;
+
+	text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+/* ============================================================== */
+
+/* ======================== Paddings ============================ */
+
+/* ============================================================== */
+
+
+
+/* ================== Paddings  de 3 px =================== */
+
+
+
+/* Padding Left de 3px */
+
+
+
+.paddingLeft3 {
+
+	padding-left: 3px;
+
+}
+
+
+
+/* Padding Right de 3px */
+
+
+
+.paddingRight3 {
+
+	padding-right: 3px;
+
+}
+
+
+
+/* Padding Bottom de 3px */
+
+
+
+.paddingBottom3 {
+
+	padding-bottom: 3px;
+
+}
+
+
+
+/* Padding Top de 3px */
+
+
+
+.paddingTop3 {
+
+	padding-Top: 3px;
+
+}
+
+
+
+
+
+/* ================== Paddings  de 5 px =================== */
+
+
+
+/* Padding Left de 5px */
+
+
+
+.paddingLeft {
+
+	padding-left: 5px;
+
+}
+
+
+
+/* Padding Right de 5px */
+
+
+
+.paddingRight {
+
+	padding-right: 5px;
+
+}
+
+
+
+/* Padding Bottom de 5px */
+
+
+
+.paddingBottom {
+
+	padding-bottom: 5px;
+
+}
+
+
+
+/* Padding Top de 5px */
+
+
+
+.paddingTop {
+
+	padding-Top: 5px;
+
+}
+
+
+
+/* ================== Paddings  de 10 px =================== */
+
+
+
+/* Padding Left de 10px */
+
+
+
+.paddingLeft10 {
+
+	padding-left: 10px;
+
+}
+
+
+
+/* Padding Right de 10px */
+
+
+
+.paddingRight10 {
+
+	padding-right: 10px;
+
+}
+
+
+
+/* Padding Bottom de 10px */
+
+
+
+
+
+.paddingBottom10 {
+
+	padding-bottom: 10px;
+
+}
+
+
+
+/* Padding Top de 10px */
+
+
+
+.paddingTop10 {
+
+	padding-Top: 10px;
+
+}
+
+
+
+/* ================== Paddings  de 15 px =================== */
+
+
+
+/* Padding Left de 15px */
+
+
+
+.paddingLeft15 {
+
+	padding-left: 15px;
+
+}
+
+
+
+/* Padding Right de 15px */
+
+
+
+.paddingRight15 {
+
+	padding-right: 15px;
+
+}
+
+
+
+/* Padding Bottom de 15px */
+
+
+
+.paddingBottom15 {
+
+	padding-bottom: 15px;
+
+}
+
+
+
+/* Padding Top de 15px */
+
+
+
+.paddingTop15 {
+
+	padding-Top: 15px;
+
+}
+
+
+
+/* ================== Paddings  de 20 px =================== */
+
+
+
+/* Padding Left de 20px */
+
+
+
+.paddingLeft20 {
+
+	padding-left: 20px;
+
+}
+
+
+
+/* Padding Right de 20px */
+
+
+
+.paddingRight20 {
+
+	padding-right: 20px;
+
+}
+
+
+
+/* Padding Bottom de 20px */
+
+
+
+.paddingBottom20 {
+
+	padding-bottom: 20px;
+
+}
+
+
+
+/* Padding Top de 20px */
+
+
+
+.paddingTop20 {
+
+	padding-Top: 20px;
+
+}
+
+
+
+/* ================== Paddings  de 25 px =================== */
+
+
+
+/* Padding Left de 25px */
+
+
+
+.paddingLeft25 {
+
+	padding-left: 25px;
+
+}
+
+
+
+/* Padding Right de 25px */
+
+
+
+.paddingRight25 {
+
+	padding-right: 25px;
+
+}
+
+
+
+/* Padding Bottom de 25px */
+
+
+
+.paddingBottom25 {
+
+	padding-bottom: 25px;
+
+}
+
+
+
+/* Padding Top de 25px */
+
+
+
+.paddingTop25 {
+
+	padding-Top: 25px;
+
+}
+
+
+
+/* ================== Paddings em todos os lados de 10px, 5px e 2px =================== */
+
+
+
+/* Padding Total de 10px */
+
+
+
+.paddingTotal10 {
+
+	padding: 10px;
+
+}
+
+
+
+/* Padding Total de 5px */
+
+
+
+.paddingTotal5 {
+
+	padding: 5px;
+
+}
+
+
+
+/* Padding Total de 3px */
+
+
+
+.paddingTotal3 {
+
+	padding: 3px;
+
+}
+
+
+
+/* Padding Total de 2px */
+
+
+
+.paddingTotal2 {
+
+	padding: 2px;
+
+}
+
+
+
+
+
+
+
+
+
+/* =====================================================================================*/
+
+/* =============================== Tamanhos de Fonts ===================================*/
+
+/* =====================================================================================*/
+
+
+
+/* ============= Italic ( italico ) ============= */
+
+
+
+.italic {
+
+	font-style:italic;
+
+}
+
+
+
+.italic a {
+
+	font-style:italic;
+
+}
+
+
+
+.italic a:hover {
+
+	font-style:italic;
+
+}
+
+
+
+
+
+/* ============= Bold ( negrito ) ============= */
+
+
+
+.bold {
+
+	font-weight: bold;
+
+}
+
+
+
+.bold a {
+
+	font-weight: bold;
+
+}
+
+
+
+.bold a:hover {
+
+	font-weight: bold;
+
+}
+
+
+
+/* ============= Tamanho da Fonte de 10 px ============= */
+
+
+
+.brod {
+
+	font-size: 10px; 
+
+}
+
+
+
+.brod a {
+
+	font-size: 10px; 
+
+}
+
+
+
+.brod a:hover {
+
+	font-size: 10px; 
+
+}
+
+
+
+/* ============= Tamanho da Fonte de 12 px ============= */
+
+
+
+.alpha {
+
+	font-size: 12px; 
+
+}
+
+
+
+.alpha a {
+
+	font-size: 12px; 
+
+}
+
+
+
+.alpha a:hover {
+
+	font-size: 12px; 
+
+}
+
+
+
+/* ============= Tamanho da Fonte de 13 px ============= */
+
+
+
+.beta {
+
+	font-size: 14px; 
+
+}
+
+
+
+.beta a {
+
+	font-size: 14px; 
+
+}
+
+
+
+.beta a:hover {
+
+	font-size: 14px; 
+
+}
+
+
+
+/* ============= Tamanho da Fonte de 14 px ============= */
+
+
+
+.gama {
+
+	font-size: 16px; 
+
+}
+
+
+
+.gama a {
+
+	font-size: 16px; 
+
+}
+
+
+
+.gama a:hover {
+
+	font-size: 16px; 
+
+}
+
+
+
+/* ============= Tamanho da Fonte de 15 px ============= */
+
+
+
+.zeta {
+
+	font-size: 18px; 
+
+}
+
+
+
+.zeta a {
+
+	font-size: 18px; 
+
+}
+
+
+
+.zeta a:hover {
+
+	font-size: 18px; 
+
+}
+
+
+
+/* ============= Tamanho da Fonte de 16 px ============= */
+
+
+
+.jeta {
+
+	font-size: 20px; 
+
+}
+
+
+
+.jeta a {
+
+	font-size: 20px; 
+
+}
+
+
+
+.jeta a:hover {
+
+	font-size: 20px; 
+
+}
+
+
+
+/* ============= Efeito de underline na fonte ============= */
+
+
+
+.underline {
+
+	text-decoration: none;
+
+}
+
+
+
+.underline a {
+
+	text-decoration: underline;
+
+}
+
+
+
+.underline a:hover {
+
+	text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================================================= */
+
+/* ================== CSS DE CORES (Fontes e backgrounds) ================ */
+
+/* ======================================================================= */
+
+
+
+
+
+/* ================== Verde escuro ================ */
+
+/* ================================================ */
+
+
+
+/* ============== Cor de Font ( Links principais ) ============== */
+
+
+
+.terra {
+
+	color: #79a6cb;
+
+	text-shadow:1px 1px #ffffff;
+
+}
+
+
+
+.terra a {
+
+	color: #79a6cb;
+
+}
+
+
+
+.terra a:hover {
+
+	color: #000000;
+
+}
+
+
+
+
+
+/* ================== Branco ================ */
+
+/* ========================================== */
+
+
+
+/* ============== Cor de Font branca ( texto e link ) ============== */
+
+
+
+.mercurio {
+
+	color: #FFFFFF;
+
+}
+
+
+
+.mercurio a {
+
+	color: #FFFFFF;
+
+}
+
+
+
+.mercurio a:hover {
+
+	color: #ffffff;
+
+}
+
+
+
+/* ============== Background de cor Branca ============== */
+
+
+
+/* Branca do fundo do site */
+
+
+
+.bg_mercurio {
+
+	background-color: #ffffff;
+
+}
+
+
+
+
+
+
+
+/* ======================================== */
+
+/* ================== Tabs ================ */
+
+/* ======================================== */
+
+
+
+#container {
+
+	display:table;
+
+	position:relative;
+
+	margin:0;
+
+	width:100%;
+
+}
+
+
+
+ul.tabs {
+
+	margin: 0;
+
+	padding: 0;
+
+	float: left;
+
+	list-style: none;
+
+	height: 42px;
+
+	width: 100%;
+
+	text-align:center;
+
+	margin-bottom:-1px;
+
+	position:relative;
+
+}
+
+ul.tabs li {
+
+	float: left;
+
+	position:relative;
+
+	overflow: hidden;
+
+	position: relative;
+
+	width:170px;
+
+	font-family:Arial, Helvetica, sans-serif; font-size:16px;  color:#63ade8;
+
+	text-align:center;
+
+	background-image: url(/images/site/bg_titperfil2.png); 
+
+	_background-image: url(/images/site/bg_titperfil2.gif); 
+
+	*background-image: url(/images/site/bg_titperfil2.gif); 
+
+	background-repeat: no-repeat; background-position:bottom center;
+
+}
+
+ul.tabs li a {
+
+	text-decoration: none;
+
+	display: block;
+
+	outline: none;
+
+	font-family: Arial, Helvetica, sans-serif; font-size:16px; color:#ffffff; font-weight:bold;
+
+	padding-top:11px; padding-bottom:10px;
+
+}
+
+ul.tabs li a:hover {
+
+	font-family: Arial, Helvetica, sans-serif; font-size:16px; color:#ffffff; font-weight:bold;
+
+	padding-top:11px; padding-bottom:10px;
+
+	background-image: url(/images/site/bg_titperfil1.png); 
+
+	_background-image: url(/images/site/bg_titperfil1.gif); 
+
+	*background-image: url(/images/site/bg_titperfil1.gif); 
+
+	background-repeat: no-repeat; background-position:bottom center;
+
+}
+
+.tab_container {
+
+	border-top: none;
+
+	clear: both;
+
+	float: left; 
+
+	width: 100%;
+
+	display:table;
+
+	padding-top:10px;
+
+	background-image: url(/images/site/bg_listra.gif); 
+
+	background-repeat: no-repeat; background-position:top left;
+
+}
+
+ul.tabs li.active, ul.tabs li.active a:hover  {
+
+	font-family: Arial, Helvetica, sans-serif; font-size:16px; color:#ffffff;
+
+	background-image: url(/images/site/bg_titperfil1.png); 
+
+	_background-image: url(/images/site/bg_titperfil1.gif); 
+
+	*background-image: url(/images/site/bg_titperfil1.gif); 
+
+	background-repeat: no-repeat; background-position:bottom center;
+
+}
